@@ -29,7 +29,7 @@ function addSites() {
 }
 
 function addYahooLinks() {
-    $('.CSCLink').remove();
+    $('.FantasyLinkLink').remove();
     $('.ysf-player-name a').each(function () {
         $(this).parent().append(getLinks($(this).text()));
     });
@@ -56,7 +56,7 @@ function getLinks(playerName) {
 }
 
 function getLinkHTML(playerName, favIconLink) {
-    return '<a class="CSCLink" href="' +
+    return '<a class="FantasyLinkLink" href="' +
         '" target="_blank"><img src=http://thecsc.win"' + favIconLink + '" height="12" width="12" border="0"' +
         ' style="margin:0 6px 0 6px" title="' + playerName + '" /></a>';
 }
