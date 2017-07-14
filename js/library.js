@@ -1,11 +1,5 @@
 ﻿var options = {
     enabled: true,
-    fangraphs: true,
-    baseballreference: true,
-    razzball: true,
-    cbs: true,
-    espn: true,
-    yahoo: true,
     toolbar: true
 };
 
